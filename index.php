@@ -13,7 +13,8 @@
                         <input type="text" placeholder="Enter a plural noun" name="noun" class="form-control">
                     </div>
                     <div class="form-group">
-                        <label> Enter the name of a person </label>
+                    <!--Needed to change <label> to input to create form-->
+                        <input type="text" placeholder="Enter the name of a person" name="person" class="form-control">
                     </div>
                     <input type="submit" value="submit" class="btn btn-primary" name="submit">
                 </form>
